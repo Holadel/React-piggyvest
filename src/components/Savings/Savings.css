@@ -1,0 +1,189 @@
+.Savings-container{
+    padding: 60px 16px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textarea{
+    line-height: 27.2px;
+    font-size: 16px;
+    letter-spacing: -.03em;
+
+   h1{
+        font-size: 48px;
+        line-height: 66px;
+        margin: auto;
+        
+   } 
+
+   p{
+    margin: 18px auto 53px;
+    font-size: 24px;
+    line-height: 35px;
+   }
+}
+
+.cards{
+   
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+#blue:hover{ 
+    background-color: #0F60D6;
+     h2,p{color: #fff;}
+    .drop-p{
+        color: #fff;
+    }
+}
+#blue{
+    color: #0F60D6;
+    .drop-p{
+         color: #0F60D6;
+        margin-top: 150px;
+    }
+}
+
+#Sblue:hover {
+    background-color: #2295F2;
+    h2,p{color: #fff;}
+    .drop-p{
+        color: #fff;
+    }
+}
+
+#Sblue{
+    color: #2295F2;
+    .drop-p{
+         color: #2295F2;
+        margin-top: 170px;
+    }
+}
+#Green:hover {
+    background-color: #39C277;
+     h2,p{color: #fff;}
+    .drop-p{
+        color: #fff;
+    }
+}
+
+#Green{
+    color: #39C277;
+    .drop-p{
+        margin-top: 150px;
+        color: #39C277;
+    }
+}
+#pink:hover {
+    background-color: #E5489B;
+     h2,p{color: #fff;}
+    .drop-p{
+        color: #fff;
+    }
+
+}
+#pink{
+    color: #E5489B;
+    .drop-p{
+        color: #E5489B;
+        margin-top: 220px;
+        
+    }
+}
+#Black:hover {
+    background-color: #0C1825;
+     h2,p{color: #fff;}
+    .drop-p{
+        color: #fff;
+    }
+
+}
+#Black{
+    color: #0C1825;
+    .drop-p{
+        color: #0C1825;
+        margin-top: 220px;
+    }
+}
+#Orange:hover {
+    background-color: #FF783C;
+    h2,p{color: #fff;}
+    .drop-p{
+        color: #fff;
+    }
+}
+#Orange{
+    color: #FF783C;
+    .drop-p{
+         color: #FF783C;
+        margin-top: 220px;
+    }
+}
+
+.card{
+    width: 455px;
+    height: 420px;
+    background: #fff;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+
+    .cardtext{
+        width: 360px;
+    }
+
+    h2{
+        font-size: 32px;
+        line-height: 44px;
+        font-weight: 800;
+        margin: 0;
+        padding: 20px 20px 0 20px;
+    }
+
+    p{
+        padding: 10px 20px 0 10px;
+        font-size: 19px;
+        line-height: 28px;
+        font-weight: 400;
+        margin: 10px;
+    }
+
+    img{
+        width: 175px;
+        position: absolute;
+        bottom: 5px;
+        right: 20px;
+        display: none;
+        transform-origin: bottom right; /* Set transform origin to bottom right corner */
+    }
+
+    .drop-p{
+        margin: 170px 40px 0 0;
+    }
+}
+
+@keyframes scaleImage{
+    0%{
+        transform: scale(0.2);
+    }
+    100%{
+        transform: scale(1.2); /* Ends at bigger size */
+    }
+}
+
+.card:hover{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    background: #F5F5F5;
+
+    img{
+        display: block;
+        animation: scaleImage 0.9s ease-in-out forwards; /* 'forwards' keeps final state */
+    }
+
+    
+}

@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+  color: #122231;
+}
+
+
+button{
+      font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    padding: 15px 22px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}

@@ -1,0 +1,76 @@
+.Investment{
+    padding: 10rem 16px;
+    background: #fff;
+    
+}
+
+.Investment-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1165px;
+    margin: auto;
+}
+
+
+h2{
+    font-size: 51px;
+    line-height: 64px;
+    margin: 0;
+    letter-spacing: -0.03em;
+}
+
+p{
+        font-size: 24px;
+    line-height: 33px;
+    font-weight: 400 ;
+    margin-top: 10px;
+    color: #3d4f60;
+}
+
+.inv-img{
+        background: #7913e5;
+    border-radius: 30px;
+    width: 1000px;
+    max-width: 1250px;
+    height: 380px;
+    padding: 4rem;
+    margin: 4rem 0;
+    position: relative;
+
+
+    .purple{
+        color: #fff;
+        width: 385px;
+        text-align: start;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    p{
+        color: #fff;
+        font-size: 21px;
+
+    }
+
+
+
+
+
+    img{
+        width: 424px;
+        position: absolute;
+        bottom: 0px;
+        right: 65px;
+    }
+}
+
+
+
+
+.drop{
+    margin-top: 170px;
+}
+

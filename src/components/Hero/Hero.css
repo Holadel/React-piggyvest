@@ -1,0 +1,174 @@
+.Hero-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    width: 1275px;
+    margin: 0 auto;
+}
+
+.text{
+   width: 400px;
+    color: #000;
+
+   
+   h1{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56px;
+        letter-spacing: -.03em;
+        margin-bottom: 20px;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+ .blue-btn{    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 100px;
+    background-color: #0089ff;
+    color: #fff;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center ;
+    font-size: 16px;
+    margin-bottom: 40px;
+
+    span {
+        font-size: 24px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fullArrow {
+        display: none;
+        
+    }
+}
+.blue-btn:hover {
+        background-color: #0C1825;
+
+        .fullArrow {
+            display: flex;
+        }
+        .partialArrow {
+            display: none;
+        }
+    }
+
+ .spin-image {
+    width: 25px;
+    animation: spin 2s linear infinite ;
+  }
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.btn-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .iph{
+    background: #0C1825;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    
+
+    img{
+        height: 20px;
+        margin-right: 10px;
+    }
+}
+
+.iph:hover{
+    transform: translateY(-6px);
+}
+ 
+
+
+.Hero-img{
+    width: 500px;
+    max-height: 568px;
+    position: relative;
+    animation: bounce 10s ease-in-out infinite;
+    
+
+    .Lady{
+        width: 500px;
+        /* height: 100%; */
+        position: relative;
+        object-fit: cover;
+    }
+
+    .Green{
+        width: 290px;
+        position: absolute;
+        top: 40px;
+        right: -110px;
+    }
+    .Sblue{
+        width: 220px;
+        position: absolute;
+        top: 65px;
+        left: -60px;
+    }
+     .Pink{
+        width: 220px;
+        position: absolute;
+        top: 220px;
+        left: -50px;
+    }
+    .Purple{
+        width: 290px;
+        position: absolute;
+        bottom: 180px;
+        right: -160px;
+    }
+    .Blue{
+        width: 220px;
+        position: absolute;
+        bottom: 50px;
+        left: -110px;
+    } 
+    .Orange{
+        width: 290px;
+        position: absolute;
+        bottom: -40px;
+        right: -130px;
+    } 
+}
+
+@keyframes bounce{
+    0%{
+        transform: translatey(0);
+    }
+    50%{
+        transform: translatey(-40px);
+    
+    }
+    100%{
+        transform: translatey(0);
+    }
+}
+
+
+
+

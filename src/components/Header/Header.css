@@ -1,0 +1,135 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 15px; */
+    background-color: transparent;
+    /* position: fixed; */
+    padding: 25px 16px;
+    margin: 0 auto;
+    /* position: fixed; */
+    width: 1270px;
+    z-index: 1000;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+nav{
+   color: #3C4E5F;
+   cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* span {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    } */
+
+.Nav1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.Nav2{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.btn{
+  background-color: #FFFFFF;
+  color:  #0C1825;
+  border: 1px solid #0C1825;
+    cursor: pointer;
+}
+.btn1{
+    background: #0C1825;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
